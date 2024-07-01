@@ -1,6 +1,6 @@
 # LLaMA3-RAG-agent
 
-This repository contains code for an agent using LLaMA3 for retrieval-augmented generation (RAG) tasks.
+LLaMA3-RAG-agent is a repository showcasing an implementation of a retrieval-augmented generation (RAG) agent using LLaMA3 (Large Language Model for Mediation Agent 3). This project integrates advanced natural language processing techniques for document retrieval, analysis, and question-answering tasks. It includes functionalities for indexing documents from specified URLs, enhancing user queries using a search query generator, and grading answers based on relevance and factual accuracy. Explore how LLaMA3-RAG-agent can facilitate complex information retrieval and generation tasks in various domains.
 
 ![diagram](https://github.com/kravishan/LLaMA3-RAG-agent/assets/125926016/d30c27ff-6f56-47f9-bf46-28676c5bfab7)
 
