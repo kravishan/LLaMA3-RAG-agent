@@ -11,6 +11,11 @@ This repository implements an agent that combines ideas from different retrieval
 - **Fallback:** Inspired by the Corrective RAG approach ([paper](https://arxiv.org/pdf/2401.15884.pdf)), the agent includes a fallback mechanism to perform web searches when retrieved documents are not relevant to the query.
 - **Self-correction:** The agent leverages concepts from Self-RAG ([paper](https://arxiv.org/abs/2310.11511)) to improve answers by correcting hallucinations or addressing questions more effectively.
 
+## Local Models
+
+- **Embedding:** Uses [GPT4All Embeddings](https://blog.nomic.ai/posts/nomic-embed-text-v1)
+- **LLM:** Utilizes [Ollama](https://ollama.ai/) and [llama3](https://ollama.ai/library/llama3)
+
 
 ## Introduction
 
@@ -31,7 +36,7 @@ To set up the project locally, follow these steps:
     ```bash
     pip install -U langchain-nomic langchain_community tiktoken langchainhub langchain-openai chromadb langchain langgraph tavily-python nomic[local] langchain-text-splitters
 
-3. Set up environment variables:
+3. Set up environment variables for Tracing:
 
      ```bash
     export LANGCHAIN_TRACING_V2=true
