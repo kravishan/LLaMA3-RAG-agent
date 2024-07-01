@@ -36,7 +36,7 @@ The repository includes functionality to index documents for retrieval. I have a
 
 Example code snippet:
 
-    ```python
+    ```
     urls = [
     "https://www.oulu.fi/en/apply/international-programmes",
     "https://www.oulu.fi/en/apply/how-apply/applying-bachelors-programmes",
