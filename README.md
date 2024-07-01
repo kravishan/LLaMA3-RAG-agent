@@ -4,6 +4,14 @@ LLaMA3-RAG-agent is a repository showcasing an implementation of a retrieval-aug
 
 ![diagram](https://github.com/kravishan/LLaMA3-RAG-agent/assets/125926016/d30c27ff-6f56-47f9-bf46-28676c5bfab7)
 
+
+This repository implements an agent that combines ideas from different retrieval-augmented generation (RAG) papers:
+
+- **Routing:** This agent incorporates the adaptive retrieval-augmented generation (RAG) approach ([paper](https://arxiv.org/abs/2403.14403)), which routes questions to different retrieval methods based on adaptive strategies.
+- **Fallback:** Inspired by the Corrective RAG approach ([paper](https://arxiv.org/pdf/2401.15884.pdf)), the agent includes a fallback mechanism to perform web searches when retrieved documents are not relevant to the query.
+- **Self-correction:** The agent leverages concepts from Self-RAG ([paper](https://arxiv.org/abs/2310.11511)) to improve answers by correcting hallucinations or addressing questions more effectively.
+
+
 ## Introduction
 
 LLaMA3-RAG-agent is a project that demonstrates how to leverage LLaMA3, a large language model, for retrieval-augmented generation tasks. It integrates document indexing, retrieval, and grading functionalities using LangChain and other associated tools.
