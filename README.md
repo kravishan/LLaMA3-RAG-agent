@@ -42,7 +42,6 @@ Example code snippet:
     "https://www.oulu.fi/en/apply/how-apply/applying-bachelors-programmes",
     "https://www.oulu.fi/en/apply/how-apply/applying-masters-programmes",
     ]
-    ```
 
 ## Retrieval and Grading
 
